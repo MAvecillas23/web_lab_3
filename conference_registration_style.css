@@ -1,0 +1,17 @@
+/*CSS file for the conference registration html file*/
+
+/*entire body will have a beige background with google font Libre Baskerville*/
+body {
+    background: beige;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/*registration title is centered with a border and background border color*/
+#registration-title {
+    text-align: center;
+    border: black 2px solid;
+    background: lightblue;
+}

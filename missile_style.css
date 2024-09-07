@@ -1,0 +1,34 @@
+/*style sheet for the missile html webpage*/
+
+/*missile alerts title is centered and underlined*/
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+/*the real alert link is red with a 30px font, bolded, with a red border and with a white background color*/
+#real-alert {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: white;
+    border: 5px red solid;
+    font-weight: bold;
+
+}
+/*test link is black with 30px font not underlined and a black border*/
+#test-only {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border: 5px black solid;
+
+}
+
+/*both missile links display is in a block as opposed to inline... centered. with 15px margin and arial font*/
+.missile-link {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-family: Arial, serif;
+
+}
